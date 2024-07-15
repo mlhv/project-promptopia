@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 import Form from '@components/Form';
-import { useEffect } from 'react/cjs/react.production.min';
 
 const EditPrompt = () => {
     const router = useRouter();
